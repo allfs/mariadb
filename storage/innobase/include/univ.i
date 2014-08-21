@@ -312,7 +312,7 @@ enum innodb_file_formats_enum {
 typedef enum innodb_file_formats_enum innodb_file_formats_t;
 
 /* The 2-logarithm of UNIV_PAGE_SIZE: */
-#define UNIV_PAGE_SIZE_SHIFT	14
+#define UNIV_PAGE_SIZE_SHIFT	16
 /* The universal page size of the database */
 #define UNIV_PAGE_SIZE		(1 << UNIV_PAGE_SIZE_SHIFT)
 
